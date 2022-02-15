@@ -31,7 +31,7 @@ services:
     ports:
       - "8888:8888"
     volumes:
-      - ./notebooks:/home/jovyan/work
+      - ./notebooks:/home/dev/work
     links:
       - neo4j
     networks:
