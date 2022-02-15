@@ -21,8 +21,8 @@ docker-compose up
 
 This will start up both a Jupyter Lab notebook at `localhost:8888` (note that there will be a token associated with this which you will need to grab as that container is starting) as well as the Neo4j browser at `localhost:7474`.  This are both configurable to whatever port you want.
 
-Default user is: neo4j and password 1234
-Jupyter Access Token will be generated out to the terminal ex. http://1dfeec86066b:8888/lab?token=25715d5c2314adadb6e38d97b8848dc88d362255a4f56160
+Default user is: ` neo4j and password 1234 `
+Jupyter Access Token will be generated out to the terminal ex. ` http://1dfeec86066b:8888/lab?token=25715d5c2314adadb6e38d97b8848dc88d362255a4f56160 `
 
 When you are done with the container, stop it vial `CTRL-c` and then:
 
